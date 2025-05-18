@@ -25,3 +25,5 @@ $(NAME): $(OBJS)
 clean:
 	rm -rf $(OBJ_DIR)
 
+run:
+	./$(NAME)

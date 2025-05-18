@@ -16,6 +16,15 @@
 // license, as set out in https://www.mongoose.ws/licensing/
 //
 // SPDX-License-Identifier: GPL-2.0-only or commercial
+#define _DEFAULT_SOURCE
+#define _GNU_SOURCE
+#define _POSIX_C_SOURCE 200809L
+
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <time.h>
+#include <alloca.h>
 
 #include "mongoose.h"
 
